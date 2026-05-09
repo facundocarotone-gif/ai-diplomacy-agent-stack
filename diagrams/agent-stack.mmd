@@ -1,0 +1,14 @@
+flowchart TD
+    Human[Human] --> Coordinator[Coordinator Agent]
+    Coordinator --> Governance[Governance / Diplomacy]
+    Coordinator --> Research[AI Research]
+    Coordinator --> Engineering[Engineering]
+    Coordinator --> Ops[QA / Security / Ops]
+    Coordinator --> Positioning[Positioning]
+    Governance --> Projects[Reference Projects]
+    Research --> Projects
+    Engineering --> Projects
+    Ops --> Projects
+    Positioning --> Projects
+    Projects --> Vault[Obsidian Second Brain]
+    Vault --> Coordinator

@@ -1,0 +1,64 @@
+# Reference Projects
+
+The stack is designed around real projects. These projects provide concrete use cases for agentic research, engineering, monitoring, and documentation.
+
+## UNscribe
+
+**URL:** <https://www.unscribe.org>
+
+UNscribe is an AI-assisted system for transcribing UN meetings and generating diplomatic cables or structured summaries.
+
+How the agent stack supports it:
+
+- pipeline monitoring;
+- transcription QA;
+- summarization quality review;
+- product documentation;
+- deployment and operational checks;
+- identifying improvements for diplomatic workflows.
+
+## AILEI — Artificial Intelligence Language Evaluation Index
+
+**URL:** <https://ailei-dashboard.vercel.app/>
+
+AILEI evaluates language equity across AI models, with a focus on multilingual access and the distributional effects of AI capabilities.
+
+How the agent stack supports it:
+
+- monitoring model releases;
+- maintaining methodology notes;
+- reviewing dashboard improvements;
+- connecting findings to AI governance debates;
+- preparing policy-oriented explanations.
+
+## Quorum
+
+**URL:** <https://quorum-sc.vercel.app/>
+
+Quorum is a UN Security Council simulation and diplomatic reasoning environment.
+
+How the agent stack supports it:
+
+- data refresh and synchronization;
+- scenario design;
+- diplomatic reasoning tests;
+- QA checks;
+- documentation of assumptions and limitations.
+
+## Antarctica Embassy
+
+**URL:** <https://soleria-embassy.vercel.app>
+
+Antarctica Embassy is an experimental virtual autonomous embassy / diplomatic interface.
+
+How the agent stack supports it:
+
+- conceptual framing;
+- diplomatic interface design;
+- monitoring relevant institutional references;
+- product and narrative iteration;
+- technical upkeep.
+
+## Why projects matter
+
+The point of the stack is not to demonstrate agents in the abstract. The point is to test whether specialized agents can improve concrete workflows in policy, research, and public-interest technology.
