@@ -148,3 +148,7 @@ It is a documented experiment in agentic work infrastructure.
 ## Status
 
 Draft public documentation. Sanitized for publication.
+
+## License
+
+This documentation is shared under [CC BY 4.0](LICENSE.md).
