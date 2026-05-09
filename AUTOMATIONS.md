@@ -2,9 +2,13 @@
 
 Scheduled agent runs are used for recurring monitoring and maintenance. They are useful, but constrained.
 
+## Principle
+
+> Automations can watch, summarize, check, draft, and maintain context. They should not decide, publish, delete, spend, or represent.
+
 ## What automations are allowed to do
 
-- monitor sources;
+- monitor public sources;
 - produce briefings;
 - check project or system health;
 - update non-sensitive internal documentation;
@@ -45,3 +49,7 @@ A scheduled wiki compiler can review raw memory logs and convert them into durab
 Exact schedules, IDs, paths, account names, and production configuration are operational details. They change often and can expose unnecessary security information.
 
 This public repo documents the pattern, not the private infrastructure.
+
+## Public-safe scheduled run template
+
+See [`templates/cron-template.md`](templates/cron-template.md).

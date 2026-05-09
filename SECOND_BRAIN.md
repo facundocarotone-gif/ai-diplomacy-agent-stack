@@ -2,34 +2,46 @@
 
 The stack uses an Obsidian-compatible Markdown vault as the human-readable knowledge layer.
 
+The purpose is not to store everything. The purpose is to turn important recurring context into a living knowledge graph that both humans and agents can use.
+
 ## Why Obsidian
 
-Obsidian is useful because it keeps knowledge in plain Markdown while adding:
+Obsidian works well for this because it is:
 
-- backlinks;
-- graph view;
-- local-first ownership;
-- easy search;
-- durable project notes;
-- human-readable structure.
+- **local-first** — notes remain plain files;
+- **portable** — Markdown survives any app migration;
+- **graph-native** — backlinks and wikilinks reveal relationships;
+- **human-readable** — the vault is not just an agent database;
+- **agent-readable** — the same files can be searched and summarized by agents.
 
-This makes it a good bridge between human thinking and agent memory.
-
-## LLM Wiki Pattern
+## The LLM Wiki Pattern
 
 The vault follows an LLM Wiki Pattern:
 
-1. Raw activity is captured in daily logs, notes, transcripts, and project updates.
-2. Agents periodically review raw material.
-3. Durable knowledge is distilled into project, concept, and entity pages.
-4. Pages are connected with wikilinks.
-5. Humans review and edit the resulting graph.
-6. Agents can later consult the vault as structured long-term context.
+```mermaid
+flowchart LR
+    Raw[Raw logs, notes, transcripts] --> Review[Agent or human review]
+    Review --> Distill[Distill durable knowledge]
+    Distill --> Pages[Project / concept / entity pages]
+    Pages --> Links[Wikilinks and backlinks]
+    Links --> Obsidian[Human graph view]
+    Pages --> Agents[Agent retrieval]
+```
+
+## Knowledge lifecycle
+
+1. **Capture** — daily logs, project updates, research notes, and decisions are captured somewhere durable.
+2. **Triage** — ephemeral items stay in logs; durable items become wiki pages.
+3. **Distill** — pages summarize what matters, not every detail.
+4. **Link** — related projects, institutions, concepts, and agents are connected with wikilinks.
+5. **Review** — humans periodically correct, prune, and promote important notes.
+6. **Retrieve** — agents consult the vault instead of relying only on chat context.
 
 ## Suggested vault structure
 
 ```txt
 second-brain/
+├── Home.md
 ├── README.md
 ├── proyectos/
 │   ├── UNscribe.md
@@ -65,12 +77,16 @@ second-brain/
 
 - credentials;
 - chat IDs;
-- private personal details;
+- personal data;
 - sensitive logs;
-- confidential diplomatic material;
-- raw transcripts unless explicitly public;
+- confidential material;
+- raw transcripts unless public and cleared;
 - production configuration.
 
 ## Human-agent division of labor
 
-Agents can help keep the vault updated. Humans decide what is important, correct, shareable, and strategically relevant.
+Agents can maintain the vault. Humans decide what is important, correct, shareable, and strategically relevant.
+
+A useful rule of thumb:
+
+> Agents generate and connect notes; humans curate judgment.

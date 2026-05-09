@@ -2,6 +2,15 @@
 
 The stack is designed around real projects. These projects provide concrete use cases for agentic research, engineering, monitoring, and documentation.
 
+## Overview
+
+| Project | Domain | Main agentic support |
+|---|---|---|
+| UNscribe | UN meetings and diplomatic drafting | Transcription QA, summarization, pipeline monitoring |
+| AILEI | AI language equity | Research monitoring, methodology notes, dashboard iteration |
+| Quorum | Diplomatic simulation | Scenario design, data sync, QA, assumption tracking |
+| Antarctica Embassy | Experimental diplomacy interface | Framing, interface design, narrative iteration, technical upkeep |
+
 ## UNscribe
 
 **URL:** <https://www.unscribe.org>
