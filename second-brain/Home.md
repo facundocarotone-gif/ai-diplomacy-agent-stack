@@ -4,7 +4,6 @@ This is a public-safe sample of an Obsidian-compatible vault for the AI Diplomac
 
 ## Start here
 
-- [[proyectos/UNscribe|UNscribe]]
 - [[proyectos/AILEI|AILEI]]
 - [[proyectos/Quorum|Quorum]]
 - [[proyectos/Antarctica-Embassy|Antarctica Embassy]]

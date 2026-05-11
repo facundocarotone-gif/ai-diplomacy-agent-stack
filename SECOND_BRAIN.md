@@ -44,7 +44,6 @@ second-brain/
 ├── Home.md
 ├── README.md
 ├── proyectos/
-│   ├── UNscribe.md
 │   ├── AILEI.md
 │   ├── Quorum.md
 │   └── Antarctica-Embassy.md

@@ -35,7 +35,6 @@ flowchart TD
     Ops --> Projects
     Positioning --> Projects
 
-    Projects --> UNS[UNscribe]
     Projects --> AILEI[AILEI]
     Projects --> Quorum[Quorum]
     Projects --> Embassy[Antarctica Embassy]
@@ -73,7 +72,6 @@ This stack is anchored in concrete projects rather than abstract agent demos:
 
 | Project | What it is | Link |
 |---|---|---|
-| **UNscribe** | AI-assisted transcription and diplomatic cable generation for UN meetings. | <https://www.unscribe.org> |
 | **AILEI** | Artificial Intelligence Language Evaluation Index: language equity across AI models. | <https://ailei-dashboard.vercel.app/> |
 | **Quorum** | UN Security Council simulation and diplomatic reasoning environment. | <https://quorum-sc.vercel.app/> |
 | **Antarctica Embassy** | Virtual autonomous embassy / experimental diplomatic interface. | <https://soleria-embassy.vercel.app> |

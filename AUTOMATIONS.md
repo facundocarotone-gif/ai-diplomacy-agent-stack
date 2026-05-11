@@ -34,7 +34,7 @@ Recurring briefings summarize developments in AI governance, technical AI resear
 
 ### Project monitoring
 
-Project checks can monitor deployments, pipelines, data refreshes, and QA status for tools such as UNscribe, AILEI, Quorum, and Antarctica Embassy.
+Project checks can monitor deployments, pipelines, data refreshes, and QA status for tools such as AILEI, Quorum, and Antarctica Embassy.
 
 ### System health
 

@@ -6,25 +6,10 @@ The stack is designed around real projects. These projects provide concrete use 
 
 | Project | Domain | Main agentic support |
 |---|---|---|
-| UNscribe | UN meetings and diplomatic drafting | Transcription QA, summarization, pipeline monitoring |
 | AILEI | AI language equity | Research monitoring, methodology notes, dashboard iteration |
 | Quorum | Diplomatic simulation | Scenario design, data sync, QA, assumption tracking |
 | Antarctica Embassy | Experimental diplomacy interface | Framing, interface design, narrative iteration, technical upkeep |
 
-## UNscribe
-
-**URL:** <https://www.unscribe.org>
-
-UNscribe is an AI-assisted system for transcribing UN meetings and generating diplomatic cables or structured summaries.
-
-How the agent stack supports it:
-
-- pipeline monitoring;
-- transcription QA;
-- summarization quality review;
-- product documentation;
-- deployment and operational checks;
-- identifying improvements for diplomatic workflows.
 
 ## AILEI — Artificial Intelligence Language Evaluation Index
 

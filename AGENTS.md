@@ -48,7 +48,7 @@ Responsibilities:
 - inspect codebases;
 - run tests and deployments with approval where required;
 - maintain engineering documentation;
-- support projects such as UNscribe, Quorum, AILEI, and Antarctica Embassy.
+- support projects such as Quorum, AILEI, and Antarctica Embassy.
 
 ## QA / Security / Operations Agent
 
