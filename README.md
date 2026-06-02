@@ -43,6 +43,24 @@ flowchart TD
     Vault <--> Agents[Specialized agents]
 ```
 
+## How to use this repository
+
+This repository is best read as a reusable reference kit, not as installation documentation.
+
+Recommended path:
+
+1. Start with this README for the overall model.
+2. Read [`AGENTS.md`](AGENTS.md) to understand role separation.
+3. Read [`GOVERNANCE.md`](GOVERNANCE.md) before copying any workflow.
+4. Use [`WORKFLOWS.md`](WORKFLOWS.md) and [`examples/`](examples/) as templates.
+5. Adapt [`SECOND_BRAIN.md`](SECOND_BRAIN.md) only after deciding what information is safe to make durable.
+
+If adapting the stack, begin with three decisions:
+
+- what the human decision-maker must approve;
+- which agents are allowed to use which tools;
+- what context must never enter a public repository.
+
 ## Core layers
 
 | Layer | Purpose |
@@ -72,9 +90,9 @@ This stack is anchored in concrete projects rather than abstract agent demos:
 
 | Project | What it is | Link |
 |---|---|---|
-| **AILEI** | Artificial Intelligence Language Evaluation Index: language equity across AI models. | <https://ailei-dashboard.vercel.app/> |
+| **AILEI** | Artificial Intelligence Language Evaluation Index: language equity across AI models. | <https://ailei-one.vercel.app/> |
 | **Quorum** | UN Security Council simulation and diplomatic reasoning environment. | <https://quorum-sc.vercel.app/> |
-| **Antarctica Embassy** | Virtual autonomous embassy / experimental diplomatic interface. | <https://soleria-embassy.vercel.app> |
+| **Antarctica Embassy** | Virtual autonomous embassy / experimental diplomatic interface. | <https://antarctica-embassy.vercel.app/> |
 
 ## Example workflows
 
@@ -146,6 +164,18 @@ See [`GOVERNANCE.md`](GOVERNANCE.md) and [`SECURITY.md`](SECURITY.md).
 └── second-brain/          # Public-safe Obsidian-style sample vault
 ```
 
+## Current limitations
+
+This is an operating model and documentation kit, not a fully reproducible software package.
+
+Known limitations:
+
+- project links are reference examples, not a guarantee that each prototype is production-grade;
+- exact private schedules, prompts, account IDs, and credentials are intentionally omitted;
+- workflows need adaptation to each institution's approval, security, and records-management rules;
+- agent outputs still require human review, especially for diplomatic or policy use;
+- the second-brain sample is public-safe and intentionally much smaller than a real private vault.
+
 ## What this repository is not
 
 - Not a plug-and-play product.
@@ -157,7 +187,7 @@ It is a documented experiment in agentic work infrastructure.
 
 ## Status
 
-Public documentation draft, sanitized for publication.
+Public documentation draft, sanitized for publication. Use as a conceptual/reference kit unless and until a separate implementation package is published.
 
 ## License
 

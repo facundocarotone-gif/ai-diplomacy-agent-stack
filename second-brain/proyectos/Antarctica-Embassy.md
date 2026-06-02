@@ -2,6 +2,6 @@
 
 Virtual autonomous embassy / experimental diplomatic interface.
 
-URL: https://soleria-embassy.vercel.app
+URL: https://antarctica-embassy.vercel.app/
 
 Related concepts: [[Agentic-Diplomacy]]

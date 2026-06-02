@@ -13,7 +13,7 @@ The stack is designed around real projects. These projects provide concrete use 
 
 ## AILEI — Artificial Intelligence Language Evaluation Index
 
-**URL:** <https://ailei-dashboard.vercel.app/>
+**URL:** <https://ailei-one.vercel.app/>
 
 AILEI evaluates language equity across AI models, with a focus on multilingual access and the distributional effects of AI capabilities.
 
@@ -41,7 +41,7 @@ How the agent stack supports it:
 
 ## Antarctica Embassy
 
-**URL:** <https://soleria-embassy.vercel.app>
+**URL:** <https://antarctica-embassy.vercel.app/>
 
 Antarctica Embassy is an experimental virtual autonomous embassy / diplomatic interface.
 

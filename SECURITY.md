@@ -24,6 +24,18 @@ This repository is intentionally sanitized. It describes patterns, not private i
 - Separate public examples from private production configuration.
 - Review generated wiki pages before publication.
 
+## Public release checklist
+
+Before publishing or updating a public version of this kind of stack, check that it does not include:
+
+- live credentials, service-role keys, tokens, cookies, or auth headers;
+- private names, phone numbers, chat IDs, account IDs, or internal routing identifiers;
+- exact production cron schedules where timing itself reveals operational behavior;
+- raw logs, transcripts, or memory files containing private context;
+- internal deployment paths, server names, or infrastructure details not needed for explanation;
+- prompts that include private biographical, diplomatic, financial, health, or family context;
+- claims that agents make official decisions, represent an institution, or act without human approval.
+
 ## Threat model
 
 Main risks:
