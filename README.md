@@ -50,10 +50,11 @@ This repository is best read as a reusable reference kit, not as installation do
 Recommended path:
 
 1. Start with this README for the overall model.
-2. Read [`AGENTS.md`](AGENTS.md) to understand role separation.
-3. Read [`GOVERNANCE.md`](GOVERNANCE.md) before copying any workflow.
-4. Use [`WORKFLOWS.md`](WORKFLOWS.md) and [`examples/`](examples/) as templates.
-5. Adapt [`SECOND_BRAIN.md`](SECOND_BRAIN.md) only after deciding what information is safe to make durable.
+2. Read [`STACK.md`](STACK.md) for the sanitized operational view.
+3. Read [`AGENTS.md`](AGENTS.md) to understand role separation.
+4. Read [`GOVERNANCE.md`](GOVERNANCE.md) before copying any workflow.
+5. Use [`WORKFLOWS.md`](WORKFLOWS.md) and [`examples/`](examples/) as templates.
+6. Adapt [`SECOND_BRAIN.md`](SECOND_BRAIN.md) only after deciding what information is safe to make durable.
 
 If adapting the stack, begin with three decisions:
 
@@ -151,6 +152,7 @@ See [`GOVERNANCE.md`](GOVERNANCE.md) and [`SECURITY.md`](SECURITY.md).
 .
 ├── README.md              # Overview
 ├── ARCHITECTURE.md        # System architecture
+├── STACK.md               # Sanitized operational stack
 ├── AGENTS.md              # Agent roles
 ├── PROJECTS.md            # Reference projects
 ├── WORKFLOWS.md           # Representative workflows
